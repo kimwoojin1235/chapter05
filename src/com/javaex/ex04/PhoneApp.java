@@ -24,6 +24,8 @@ public class PhoneApp {
 		pList.add(anew);
 		pList.add(bnew);
 		pList.add(cnew);
+		//만일 메모장에 추가를 한다면은 그것만 추가를 한느 것은 무리 할려면은 전체적으로 다시 작성을 한뒤 
+		//출력을 해야만 한다.
 				
 		for(int i=0; i<pList.size(); i++) {
 			Bw.write(pList.get(i).getName()+ "," +pList.get(i).getHp()+ "," +pList.get(i).getCompany());
